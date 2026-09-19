@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Giulia 5 Anos 🧜‍♀️ Festa Sereia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+<!-- BOLHAS ANIMADAS -->
+<div class="bolhas" id="bolhas"></div>
+
+<!-- ONDAS DECORATIVAS TOPO -->
+<div class="onda-topo"></div>
+
+<!-- CONTEÚDO -->
+<main class="container">
+
+  <!-- CABEÇALHO -->
+  <header class="cabecalho">
+    <p class="subtitulo">Festa de Aniversário</p>
+    <h1 class="nome">Giulia</h1>
+    <p class="idade">5 anos</p>
+    <p class="tema">🧜‍♀️ Tema Sereia 🧜‍♀️</p>
+  </header>
+
+  <!-- FOTO DA GIULIA -->
+  <section class="foto-area">
+    <div class="moldura-concha">
+      <img src="img/giulia.jpg" alt="Giulia vestida de sereia" onerror="this.style.display='none'; this.parentElement.classList.add('vazia')">
+      <span class="placeholder-foto">Foto da Giulia 🧜‍♀️</span>
+    </div>
+  </section>
+
+  <!-- CONTAGEM REGRESSIVA -->
+  <section class="contagem">
+    <h2>A festa começa em...</h2>
+    <div class="contagem-grid">
+      <div class="contagem-item"><span id="dias">00</span><small>dias</small></div>
+      <div class="contagem-item"><span id="horas">00</span><small>horas</small></div>
+      <div class="contagem-item"><span id="min">00</span><small>min</small></div>
+      <div class="contagem-item"><span id="seg">00</span><small>seg</small></div>
+    </div>
+  </section>
+
+  <!-- INFORMAÇÕES -->
+  <section class="info">
+    <div class="card-info">
+      <span class="icone">📅</span>
+      <h3>Quando</h3>
+      <p>20 de setembro de 2026<br>Domingo, às 11h</p>
+    </div>
+    <div class="card-info">
+      <span class="icone">📍</span>
+      <h3>Onde</h3>
+      <p>Cabana Santa Mariana<br>Estrada Colônia Mariana, 3622<br>Campo Largo - PR</p>
+    </div>
+    <div class="card-info">
+      <span class="icone">🌊</span>
+      <h3>Tema</h3>
+      <p>Sereia<br>Traga seu traje de banho!</p>
+    </div>
+  </section>
+
+  <!-- BOTÃO COMO CHEGAR -->
+  <section class="acoes">
+    <a class="botao botao-mapa"
+       href="https://www.google.com/maps/search/?api=1&query=Cabana+Santa+Mariana+Estrada+Colônia+Mariana+3622+Campo+Largo+PR"
+       target="_blank" rel="noopener">
+      🗺️ Como chegar
+    </a>
+  </section>
+
+  <!-- BOTÃO ENVIAR FOTOS -->
+  <section class="enviar-fotos">
+    <h2>📸 Mergulhe nas memórias da Giulia!</h2>
+    <p>Tire fotos durante a festa e compartilhe com a gente.<br>
+       Elas vão direto para o álbum da Giulia. 💜</p>
+    <a class="botao botao-fotos" href="enviar.html">
+      📸 Envie suas fotos
+    </a>
+  </section>
+
+</main>
+
+<!-- ONDAS RODAPÉ -->
+<div class="onda-rodape"></div>
+
+<footer class="rodape">
+  <p>Feito com 💜 para a Giulia</p>
+</footer>
+
+<script src="js/contagem.js"></script>
+<script src="js/bolhas.js"></script>
+</body>
+</html>
